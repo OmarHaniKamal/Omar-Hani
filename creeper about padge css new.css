@@ -1,0 +1,205 @@
+*
+{
+    margin: 0%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body
+{margin: 0;
+    padding: 0;
+    background-image: url("New Project (9).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.mini-header
+{display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    padding:10px 821px
+}
+
+.mini-header:hover
+{
+    opacity: 0.7;
+}
+
+.main-parent
+{overflow: hidden;
+    
+    
+}
+.left-section
+{
+    margin-top: 500px;
+}
+.container
+{
+        line-height: 1.4;
+        text-align: justify;
+    margin-bottom:5px ;
+}
+
+.container 
+{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.monster-name
+{
+ padding: 20px 100px;
+ font-size: 50px;
+ color :white;
+ font-family: 'Fira Sans', sans-serif;
+}
+.content p
+{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 5px 5px 25px black;
+}
+.creeper3
+{
+    margin :20px ;
+}
+.brothers
+{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+footer h4
+{
+margin: 30px;
+margin-left: 50px;
+color:white;
+font-size: 50px;
+}
+
+#check
+{  display: flex;
+   text-align: center;
+    display: none;
+}
+.content
+{
+    display: none;
+    transition: 0.5s linear;
+}
+label 
+{
+    display: inline;
+    margin-top: 5px;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight: 500px;
+    background-color: rgb(0, 255, 55);
+    border-radius: 20px;
+    padding: 10px;
+}
+label
+{
+    text-decoration: none;
+    margin: 10px 105px;
+    padding: 10px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+label:hover
+{
+opacity: 0.5;
+color:rgb(0, 122, 27) ;
+}
+
+#check:checked ~ .content
+{
+    display: block;
+}
+#check:checked ~ label
+{
+    visibility: hidden;
+}
+#check:checked ~ label::after
+{
+    content: 'Show less';
+    margin: 20px 105px;
+    background-color: rgb(0, 255, 55);
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+    /* display: block; */
+    visibility: visible;
+}
+.creeper-img
+{
+    margin-bottom: -40px;
+}
+
+footer
+{background-image: url('New Project cr.png');
+    border-top: 5px solid white;
+    padding: 20px;
+}
+footer ul li a
+{color: white ;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.ul-footer
+{
+    list-style-type: none;
+  display: flex;
+  justify-content:space-evenly;
+  padding: 30px;
+}
+.ul-footer li a:hover
+{
+    opacity: 0.5;
+    color: rgb(255, 0, 0);
+}
+
+.creeper2
+{border: 10px  solid red;
+    width: 100%;
+    
+    text-align :center;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+.main-parent
+{
+    display: flex;
+    justify-content :space-between;
+}
+
+@media(min-width:950px) and (max-width:1150px){
+
+    .body{
+        background-color: red;
+    }
+    .mini-header{
+      align-items: center;
+    }
+    
+}
+@media(min-width:1080px)and(max-width:1920px){
+    .body{
+        background-color: red;
+    }
+}
